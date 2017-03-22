@@ -60,7 +60,7 @@ position:relative;
  }
 
  header nav ul {
-  display: inline;
+  display: block;
   text-align: right;
   float: right;
   margin: 0;
@@ -91,25 +91,26 @@ header nav ul > li.btn-outline:hover > a {
   color:#FFFFFF;
 }
 
+/* HERO */
  header .hero { 
    background:#63893E url('../images/hero_cover.png') no-repeat top center;
    text-align: left;
    display:block;
    position: relative;
    background-size:cover;
-   min-height: 500px;
+   min-height: 250px;
  }
  header .hero .hero-content {
-  width:50%;
+  width:80%;
   padding: 10% 30px;
  }
  header .hero h1 {
-   font-size:48px;
+   font-size:32px;
    font-weight: normal;
  }
  header .hero p {
-   font-size: 22px;
-   line-height: 26px;
+   font-size: 16px;
+   line-height: 20px;
    font-weight: 300;
    margin:10px 0px 40px;
  }
@@ -118,17 +119,8 @@ header nav ul > li.btn-outline:hover > a {
   margin 3em auto 0;
  }
 
- /* BUTTONS */
- .btn {
-  border-radius: 4px;
-  color:#FFFFFF;
-  font-weight: 600;
-  text-decoration: none;
-  padding: 10px 30px;
-  background: #EF4A27;
-  border: 2px solid #EF4A27;
-  box-shadow: 0px 2px 0px 0px #A42F17;
- }
+
+/* Benefits */
 
  .benefits {
   margin: 0 auto;
@@ -145,9 +137,22 @@ header nav ul > li.btn-outline:hover > a {
   width: 100%;
   margin: 0;
   display: block;
-  
+
  }
 
+
+
+ /* BUTTONS */
+ .btn {
+  border-radius: 4px;
+  color:#FFFFFF;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 10px 30px;
+  background: #EF4A27;
+  border: 2px solid #EF4A27;
+  box-shadow: 0px 2px 0px 0px #A42F17;
+ }
 
 @media (min-width: 768px) {
    .container {
@@ -169,12 +174,47 @@ header nav ul > li.btn-outline:hover > a {
      width:21%;
    }
 
+   header nav ul {
+  display: inline;
+  text-align: right;
+  float: right;
+  margin: 0;
+ }
+
+ header nav ul > li {
+  list-style-type:none;
+  display: inline-block;
+  margin: 0 15px;
+ }
+
+ header .hero { 
+   text-align: left;
+   min-height: 500px;
+ }
+ header .hero .hero-content {
+  width:50%;
+  padding: 10% 30px;
+ }
+ header .hero h1 {
+   font-size:48px;
+   font-weight: normal;
+ }
+ header .hero p {
+   font-size: 22px;
+   line-height: 26px;
+   margin:10px 0px 40px;
+ }
+ header .hero img{
+  display: block;
+  margin 3em auto 0;
+ }
+
 
    .benefits .one-half {
     width:50%;
     margin: 0;
     display: inline-block;
-    height:400px;
+    height:350px;
     overflow: hidden;
    }
    .benefits .one-half img {
@@ -196,6 +236,8 @@ header nav ul > li.btn-outline:hover > a {
      width: 1170px;
    }
  }
+
+
 
 
 
