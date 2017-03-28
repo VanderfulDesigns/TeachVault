@@ -565,46 +565,19 @@ footer .logo {
   font-weight: 100;
  }
 
+ .left-nav .items .active a {
+  background: #506C34;
+  width:100%;
+  padding: 4% 25% 4% 2%;
+ }
+
  .left-nav .items ul li a i {
   width: 16px;
   text-align: center;
   margin-right: 8px;
  }
 
- /* LEFT NAVBAR SETTINGS */
- .left-nav .settings {
-  position: absolute;
-  background: #506C34;
-  width:100%;
-  bottom:0;
-  left:0;
-  right:0;
-  padding:10px 0;
- }
-
- .left-nav .settings img {
-  height: 35px;
-  width: 35px;
-  margin-left:10px;
-  display: inline-block;
- }
-
- .left-nav .settings p {
-  display: inline-block;
-  vertical-align: top;
-  padding-top: 8px;
-  font-weight: 400;
-  margin: 0 0 0 10px;
- }
-
- .left-nav .settings a {
-  color:#FFFFFF;
-  text-decoration: none;
-  text-align: right;
-  float: right;
-  margin-right: 10px;
-  margin-top: 8px;
- }
+ 
 
  /* CONTENT */
 
@@ -634,6 +607,36 @@ footer .logo {
   float:left;
   margin:0 30px;
  }
+
+
+
+
+ /* AVATAR SETTINGS */
+ .content .settings {
+  float:right;
+  bottom:0;
+  left:0;
+  right:0;
+  margin: 0 1% 20px;
+ }
+
+  .content .settings img {
+  height: 35px;
+  width: 35px;
+  margin-left:10px;
+  display: inline-block;
+ }
+
+ .content .settings p {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 8px;
+  font-weight: 400;
+  margin: 0 0 0 10px;
+ }
+
+ /* AVATAR SETTINGS */
+
 
  .content-item {
   width:96%;
@@ -714,12 +717,20 @@ footer .logo {
   right:0;
 }
 
+.item-box .webstyle img {
+  height:30%;
+  width:auto;
+  top:0;
+  left:0;
+  right:0;
+}
+
 .item-box h2 {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-size:15px;
   line-height:17px;
-  margin:0;
+  margin: 0;
 }
 
 .item-box h2 a{
@@ -739,8 +750,23 @@ footer .logo {
   font-size: 14px;
   color: #333333;
   line-height:18px;
-  margin:5px 0 0;
+  margin:10px 0 0;
 }
+
+.item-box ol {
+  font-size: 14px;
+  color: #333333;
+  line-height:18px;
+  margin:10px 0 0;
+}
+
+.item-box ul {
+  font-size: 14px;
+  color: #333333;
+  line-height:18px;
+  margin:10px 0 0;
+}
+
 
 
 
